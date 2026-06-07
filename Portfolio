@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         header{
+            background-color: #2196f3;
+            height: 100vh;
+            text-align: center;
+            color: white;
+            font-size:xx-large;
+        
+           border: 2px solid black;
+           border margin: 10px;
+            
+         }
+         body{
+            margin: 0;
+            font-family: monospace;
+            font-size: 15px;
+            background-color: antiquewhite;
+         }
+         .about{
+            border:none;
+            height: 40px;
+            width: 100px;
+            border-radius: 10px;
+            cursor: pointer;
+         }
+         button:hover{
+            background-color:aquamarine;
+         }
+         
+         img{
+            height:250px;
+            display: block;
+            margin: 0 auto;
+            
+         }
+         main{
+            height: 100vh;
+            border: 2px solid black;
+         }
+         main h1{
+            text-align: center;
+            color: #2196f3;
+         }
+         div{
+            height: 100vh;
+           border: 2px solid black;
+        
+         }
+         section{
+            height: 100vh;
+           border: 2px solid black;
+         }
+         article{
+            height: 100vh;
+            border: 2px solid black;
+            text-align: center;
+         }
+         article h1{
+            color: #2196f3;
+         }
+         div h1{
+            color: #2196f3;
+         }
+         section h1{
+            color: #2196f3;
+         }
+         h1{
+            font-size: 4rem;
+            text-align: center;
+         }
+         table{
+            font-size:30px;
+         }
+         ol{
+             max-width: fit-content;
+            margin:0 auto;
+            font-size: 20px;
+         }
+         main p{
+            text-align: center;
+         }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my portfolio</h1>
+        <a href="http://127.0.0.1:5500/label%20tag.html">
+            <button class="about">About</button>
+        </a>
+        <a href=" ">
+            <button class="about">Skills</button>
+        </a>
+        <a href=" ">
+            <button class="about">projects</button>
+        </a>
+        <a href=" ">
+            <button class="about">contact</button>
+        </a>
+</header>
+<main>
+         <h1>Likhith</h1>
+        <img src="likhith.jpeg" alt="This is my picturs">
+        <p>I am currently pursuing at Mohan babu university</p>
+         <p>I am a front end developer</p>
+<p>I am also good at java basics</p>
+</main>
+<div>
+    <h1>My Skills</h1>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>JAVA basics</li>
+    </ol>
+</div>
+<section>
+    <h1>My Projects</h1>
+    <table border="1" style="margin-left: auto; margin-right: auto;" >
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>portfolio</td>
+            <td>I Have created my portfolio</td>
+        </tr>
+    </table>
+</section>
+<article>
+     <h1 >Contact me</h1>
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="enter your name" type="text"><br>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="enter email" name="email">
+        <form action="">
+            <label for="gender">Enter your gender</label>
+            <input type="radio" id="male" name="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="female">
+            <label for="female">female</label>
+
+        </form>
+        <form action="">
+            <label>Select your intrest</label>
+             <input type="checkbox" id="front end" name="Front end">
+            <label for="front end">Front end</label>
+            <input type="checkbox" id="back end" name="back end">
+            <label for="back end">Back end</label><br>
+            <label for="bio">Bio: </label>
+            <input id="bio" type="text">
+            <br>
+            <br>
+            <button>Submit</button>
+
+
+
+        </form>
+
+</article>
+    
+</body>
+</html>
